@@ -31,6 +31,7 @@ public class Cart {
 
 
             switch (userChoice) {
+
                 case "1":
                     System.out.println("Code IMEI");
                     int userIMEI = Integer.parseInt(scan.nextLine());
@@ -56,21 +57,29 @@ public class Cart {
                     Headphones headphones = new Headphones(userName, userBrand, userPrice, userIva, userColor, userCable);
                     cart.add(headphones);
                     break;
-                case "stop":
-                    quit = true;
-                    break;
-                default:
+
+                    default:
                     System.out.println("choice not available");
                     break;
-
-
-
             }
+
+            System.out.println("do you want to add more items to the cart?");
+            String answer = scan.nextLine();
+
+            if(answer.equalsIgnoreCase("NO")){
+                quit = true;
+                break;
+            }
+
 
 
         }
 
-        System.out.println(cart);
+        System.out.println(" il tuo carrello ha:" + cart);
+
+        scan.close();
 
     }
+
+
 }

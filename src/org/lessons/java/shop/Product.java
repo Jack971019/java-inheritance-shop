@@ -6,17 +6,17 @@ public class Product {
 
     // CAMPI
 
-    private int code;
+     int code;
 
-    private String name;
+     String name;
 
-    private String brand;
+     String brand;
 
-    private double price;
+     double price;
 
 
 
-    private double iva;
+     double iva;
 
     // COSTRUTTORI
 
@@ -81,13 +81,12 @@ public class Product {
         return "Product{" +
                 "code=" + code +
                 ", name='" + name + '\'' +
-                ", description='" + brand + '\'' +
+                ", brand='" + brand + '\'' +
                 ", price=" + price +
                 ", iva=" + iva +
+                ", random=" + random +
                 '}';
     }
-
-
 
     public double getPricePlusIva(){
         double PricePlusIva = price + (price * iva / 100);
