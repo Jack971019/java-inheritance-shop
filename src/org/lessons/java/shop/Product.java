@@ -96,17 +96,7 @@ public class Product {
 
     // metodo per concatenare nome e codice
 
-    public String getcodeName(){
-        String codeName = getCodePadded()+ "-" + name ;
-        return codeName;
-    }
 
-    private String getCodePadded(){
-        String code = String.valueOf(this.code);
-        while(code.length() < 8){
-            code = "0" + code;
 
-        }
-        return code;
-    }
+
 }

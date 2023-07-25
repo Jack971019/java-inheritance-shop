@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda42cea-2509-4ea5-aa61-7caf9ecbbdd9" name="Changes" comment="" />
+    <list default="true" id="eda42cea-2509-4ea5-aa61-7caf9ecbbdd9" name="Changes" comment="created repository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Televisions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Televisions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +48,19 @@
       <option name="presentableId" value="Default" />
       <updated>1690288305229</updated>
     </task>
+    <task id="LOCAL-00001" summary="created repository">
+      <option name="closed" value="true" />
+      <created>1690289976459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690289976459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="created repository" />
   </component>
 </project>

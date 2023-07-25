@@ -2,13 +2,13 @@ package org.lessons.java.shop;
 
 public class Headphones extends Product{
 
-    String IMEIcode;
-    int capacity;
+    String color;
+    String wirless ;
 
-    public Headphones(String name, String brand, double price, double iva) {
+    public Headphones(String name, String brand, double price, double iva, String color, String wirless ) {
         super (name,brand,price,iva);
-        IMEIcode = this.IMEIcode;
-        capacity = this.capacity;
+        color = this.color;
+        wirless = this.wirless;
     }
 
 }

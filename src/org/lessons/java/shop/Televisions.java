@@ -2,13 +2,13 @@ package org.lessons.java.shop;
 
 public class Televisions extends Product{
 
-    String IMEIcode;
-    int capacity;
+    String dimension;
+    String smart;
 
-    public Televisions(String name, String brand, double price, double iva) {
+    public Televisions(String name, String brand, double price, double iva, String dimension, String smart) {
         super (name,brand,price,iva);
-        IMEIcode = this.IMEIcode;
-        capacity = this.capacity;
+        dimension = this.dimension;
+        smart = this.smart;
     }
 
 }

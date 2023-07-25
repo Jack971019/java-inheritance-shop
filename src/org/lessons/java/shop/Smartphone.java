@@ -5,9 +5,9 @@ public class Smartphone extends Product{
     String IMEIcode;
     int capacity;
 
-    public Smartphone(String name, String brand, double price, double iva) {
+    public Smartphone(String name, String brand, double price, double iva, int IMEIcode, int capacity) {
         super (name,brand,price,iva);
-        IMEIcode = this.IMEIcode;
+        this.IMEIcode = String.valueOf(IMEIcode);
         capacity = this.capacity;
     }
 
